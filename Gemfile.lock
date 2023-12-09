@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/thiesp/inpay-customers
-  revision: 9d13a2d81b1b13ea4469fabc4f0a159f0e0525ff
+  revision: 3744a8944b383d95aa2b88638e2789b5ca07a8e8
   specs:
     customers (0.1.0)
       pg
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/thiesp/inpay-payments
-  revision: 428749f71957cc0a2324c7e6673d12243aed3aae
+  revision: a7bb11dd551857848be1c15f8cf038e1cf45399f
   specs:
     payments (0.1.0)
       customers
