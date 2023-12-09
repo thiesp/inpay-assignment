@@ -44,8 +44,8 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-gem 'customers', path: "./engines/customers"
-gem 'payments', path: "./engines/payments"
+gem 'customers', git: "https://github.com/thiesp/inpay-customers"
+gem 'payments', git: "https://github.com/thiesp/inpay-payments"
 gem 'byebug'
 
 group :development, :test do
