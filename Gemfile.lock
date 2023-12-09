@@ -1,7 +1,15 @@
 PATH
-  remote: customers
+  remote: engines/customers
   specs:
     customers (0.1.0)
+      pg
+      rails (>= 7.1.2)
+
+PATH
+  remote: engines/payments
+  specs:
+    payments (0.1.0)
+      pg
       rails (>= 7.1.2)
 
 GEM
@@ -87,6 +95,7 @@ GEM
     bootsnap (1.17.0)
       msgpack (~> 1.2)
     builder (3.2.4)
+    byebug (11.1.3)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
     crass (1.0.6)
@@ -220,10 +229,12 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  byebug
   customers!
   debug
   importmap-rails
   jbuilder
+  payments!
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.1.2)
